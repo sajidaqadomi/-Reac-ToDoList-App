@@ -1,0 +1,16 @@
+.add-item input[type="submit"]{
+    background-color: #01a3a4;
+    color: white;
+    offset:  none;
+}
+.add-item input[type="submit"]:hover{
+    background-color: #48dbfb;
+    border: 1px solid #01a3a4;
+    
+}
+.add-item input{
+    outline-style: none;
+}
+.add-item input:focus :not([type="submit"]){
+    background-color: #ddd; 
+}
